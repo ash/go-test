@@ -15,7 +15,7 @@ func main() {
 		for y := 1; y <= n; y++ {
 			s += y * y
 			for z := 1; z <= n; z++ {
-				if s + z * z == 3 * x * y * z {
+				if s+z*z == 3*x*y*z {
 					nums[x] = true
 					nums[y] = true
 					nums[z] = true
@@ -25,7 +25,7 @@ func main() {
 	}
 
 	res := make([]int, 0)
-	for a, _ := range(nums) {
+	for a, _ := range nums {
 		res = append(res, a)
 	}
 
