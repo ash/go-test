@@ -24,7 +24,7 @@ func main() {
 		}
 	}
 
-	res := make([]int, 0)
+	var res []int
 	for a, _ := range nums {
 		res = append(res, a)
 	}
