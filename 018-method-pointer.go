@@ -22,4 +22,7 @@ func main() {
 
 	a.Inc2()
 	fmt.Println(a)
+
+	(&a).Inc2()
+	fmt.Println(a)
 }
